@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects - gamingregory</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #0f1115, #1a1d24);
+      color: #e0f7fa;
+      height: 100%;
+      overflow-y: auto;
+    }
+    .navbar {
+      background-color: #12161c;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      box-shadow: 0 4px 10px rgba(0, 255, 170, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+    .navbar a {
+      color: #00ffc3;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.2s ease;
+    }
+    .navbar a:hover {
+      color: #aaffee;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 30px;
+      background-color: #1e222a;
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0, 255, 170, 0.1);
+    }
+    h2 {
+      color: #00ffc3;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #00ffc3;
+      padding-bottom: 10px;
+    }
+    h1 {
+      color: #00ffc3;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* smaller min width */
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.project-img {
+  width: 100%;
+  height: 120px; /* reduced height */
+  object-fit: cover;
+  display: block;
+  border-bottom: 2px solid #00ffc3;
+}
+
+    .project-card {
+      background-color: #12161c;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 15px rgba(0, 255, 170, 0.15);
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 30px rgba(0, 255, 170, 0.4);
+    }
+    .project-info {
+      padding: 15px 20px;
+    }
+    .project-title {
+      color: #00ffc3;
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+    .project-desc {
+      font-size: 0.95rem;
+      color: #d0f0ff;
+      line-height: 1.4;
+    }
+    @media (max-width: 600px) {
+      .projects-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="About.html">About Me</a>
+    <a href="Projects.html">Projects</a>
+    <a href="tou.html">Terms of Use</a>
+  </div>
+
+<div class="container">
+  <h1>My Projects</h1>
+  
+  <section>
+    <h2>Groups I’ve Worked With</h2>
+    <div class="projects-grid">
+      <a href="https://discord.gg/3Qhh3BmSN8" target="_blank" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+          <img class="project-img" src="https://cdn.discordapp.com/icons/1316958394023804929/835e21ade8d45b77e6e52018665fec8b.webp" alt="Group 1 Logo" />
+          <div class="project-info">
+            <h3 class="project-title">Noah's Epic RNG</h3>
+            <p class="project-desc">Worked as a Contributer, Helping with Discord Webhooking.</p>
+          </div>
+        </div>
+      </a>
+      <a href="https://your-link.com" target="_blank" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+          <img class="project-img" src="https://cdn.discordapp.com/icons/1351433927813763083/c843fc0a4f36f320175eb057f4dd32db.webp" alt="Group 2 Logo" />
+          <div class="project-info">
+            <h3 class="project-title">ZYLO GAMES</h3>
+            <p class="project-desc">Worked as Side Programer making Raycasting Crouch, Sprint and CutScene.</p>
+          </div>
+        </div>
+      </a>
+      <a href="https://discord.gg/UdxF8yYzHr" target="_blank" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+          <img class="project-img" src="https://cdn.discordapp.com/icons/1358688524404002998/e7afc3b36348d7faa878b188d42dfd02.webp" alt="Group 2 Logo" />
+          <div class="project-info">
+            <h3 class="project-title">Chaos Studios</h3>
+            <p class="project-desc">Worked as Lead Dev making Anti-Cheat, Admin Commands, Ban System, Datastore.</p>
+          </div>
+        </div>
+      </a>
+      <a href="https://discord.gg/nVYbvDjRdH" target="_blank" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+          <img class="project-img" src="https://cdn.discordapp.com/icons/1359575466725605427/bc7772cf888402f0e17918fd83abf20f.webp" alt="Group 2 Logo" />
+          <div class="project-info">
+            <h3 class="project-title">✨☀nightlight studios💫🌙</h3>
+            <p class="project-desc">Worked as Side Dev making, Undecided.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Full Games</h2>
+    <div class="projects-grid">
+      <a href="https://www.roblox.com/games/72570564222529/Chaotic-Survival" target="_blank" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+          <img class="project-img" src="https://tr.rbxcdn.com/180DAY-230d644600fb93ecf3f882daf1a058bf/352/352/Image/Png/noFilter" alt="Full Game 1 Screenshot" />
+          <div class="project-info">
+            <h3 class="project-title">Chaotic Survival</h3>
+            <p class="project-desc">Fast-paced, round-based parkour game with rising lava. Built in under 4 days.</p>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.roblox.com/games/16427875930/Case-Closed-BETA" target="_blank" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+          <img class="project-img" src="https://tr.rbxcdn.com/180DAY-7882f1e0c79285b17351413163a6d54f/352/352/Image/Png/noFilter" alt="Full Game 2 Screenshot" />
+          <div class="project-info">
+            <h3 class="project-title">Case Closed 🕵️‍♂️[BETA]</h3>
+            <p class="project-desc">Simulate an investigator solving crimes. Will you find the truth or get fired?</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Individual Projects</h2>
+    <div class="projects-grid">
+      <a href="https://youtu.be/mn0i3k-LIHY" target="_blank" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+          <img class="project-img" src="FurniturePhoto.png" alt="Project 1 Screenshot" />
+          <div class="project-info">
+            <h3 class="project-title">Furniture Placement System</h3>
+            <p class="project-desc">A system to place furniture, Change the color of specific furniture, Specific Furniture can only be placed on others like TV, and Furniture saves on leave.</p>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=MgHHuKyXzGw" target="_blank" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+          <img class="project-img" src="Chat Tips.png" alt="Project 2 Screenshot" />
+          <div class="project-info">
+            <h3 class="project-title">Inventory UI</h3>
+            <p class="project-desc">Responsive inventory UI with smooth animations and server syncing.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+</div>
+
+</body>
+</html>

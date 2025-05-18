@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me - gamingregory</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #0f1115, #1a1d24);
+      color: #e0f7fa;
+    }
+
+    html, body {
+      height: 100%;
+      overflow-y: auto;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+      background-color: #12161c;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      box-shadow: 0 4px 10px rgba(0, 255, 170, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    .navbar a {
+      color: #00ffc3;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.2s ease;
+    }
+
+    .navbar a:hover {
+      color: #aaffee;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 30px;
+      background-color: #1e222a;
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0, 255, 170, 0.1);
+    }
+
+    .profile-section {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      background-color: #111;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 3px solid #00ffc3;
+    }
+
+    .profile-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .bio {
+      flex: 1;
+      color: #d0f0ff;
+    }
+
+    h2 {
+      border-bottom: 2px solid #00ffc3;
+      padding-bottom: 5px;
+      margin-top: 40px;
+      color: #00ffc3;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      columns: 2;
+      column-gap: 40px;
+    }
+
+    ul li::before {
+      content: "◆ ";
+      color: #00ffc3;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    @media (max-width: 700px) {
+      ul {
+        columns: 1;
+      }
+
+      .navbar {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+      }
+
+      .profile-section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .bio {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <a href="About.html">About Me</a>
+    <a href="Projects.html">Projects</a>
+    <a href="tou.html">Terms of Use</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="profile-section">
+      <div class="profile-img">
+        <img src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-BF1D22E3ED53051FF886F05F2E36E029-Png/150/150/AvatarHeadshot/Webp/noFilter" alt="Profile Picture">
+      </div>
+      <div class="bio">
+        <p>Hi! I’m <strong>gamingregory</strong>, a dedicated Roblox developer with over <strong>5 years</strong> of experience. My main focus is on <strong>Lua scripting</strong>, but I also have working knowledge of <strong>UI design, building, and basic 3D modeling</strong>. I’m passionate about turning ideas into reliable game systems and features that players enjoy.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>💼 Skills & Specialties</h2>
+      <ul>
+        <li>Round Systems</li>
+        <li>Discord Bot / Webhook</li>
+        <li>DataStore v2 / Leaderstats</li>
+        <li>CrossServer Communications</li>
+        <li>Advanced Admin Systems</li>
+        <li>HTTP Requests</li>
+        <li>ServerSide Anti-Cheats</li>
+        <li>Testing from Hackers POV</li>
+        <li>Gamepasses / Subscriptions</li>
+        <li>Cutscenes</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📊 Experience Summary</h2>
+      <ul>
+        <li>Roblox Developer since 2019</li>
+        <li>Completed 20+ Commissions</li>
+        <li>Worked with 5+ Groups</li>
+        <li>100K+ Lines of Code</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
